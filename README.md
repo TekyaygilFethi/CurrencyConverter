@@ -7,6 +7,7 @@ Currency Converter is a Solidity project that converts given amount according to
 ## Demonstration
 
 Conversion App.sol file must be compiled and deployed for the project to work. according to your test network, you must choose amongst createRinkeByObject or createKovanObject functions and execute it. This will create an object that you can interact with in your current test network. Please note that you shouldn't use it with JavaScript VM.
+
 ![Creating Network Objects](https://res.cloudinary.com/dpzdg2rik/image/upload/v1643400510/samples/CurrencyConverterSolidity/createobj.png)
 
 When the transaction ends, you can see all possible pairs by calling getAllPossiblePairs function:
